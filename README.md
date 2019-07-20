@@ -12,6 +12,8 @@
 https://sites.google.com/a/chromium.org/chromedriver/downloads 
 
 
+----------------------------------------------------------------------------
+
 ## 2. Download Selenium Webdrivers libraries:
 ### A. Go to https://www.seleniumhq.org/download/
 ### B. Scroll until you see Java and press download

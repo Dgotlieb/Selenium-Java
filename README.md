@@ -2,19 +2,19 @@
 
 ## 1. Download ChromeDriver:
 
-### A. Check your Google Chrome version:
+###   A. Check your Google Chrome version:
 ![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/About.png)
 
 ![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/version.png)
 
 
-### B. Download the ChromeDriver matching your Google Chrome from:
+###   B. Download the ChromeDriver matching your Google Chrome from:
 https://sites.google.com/a/chromium.org/chromedriver/downloads 
 
 
 ----------------------------------------------------------------------------
 
-## 2. Download Selenium Webdrivers libraries:
+## 2. Download Selenium Webdriver Java libraries:
 ### A. Go to https://www.seleniumhq.org/download/
 ### B. Scroll until you see Java and press download
 ![alt text](https://github.com/Dgotlieb/Selenium-Java/blob/master/images/Java.png)

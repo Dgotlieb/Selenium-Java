@@ -21,3 +21,22 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 ### D. Paste it inside your POM.xml in between <dependencies></dependencies>
 
 
+## 3. Add WebDriver code:
+### A. Create a new Java class name it: WebTest
+### B. Copy the below code into tour class:
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+    public class WebTest {
+        private static ChromeDriver driver;
+
+        public static void main(String[] args) {
+            System.setProperty("webdriver.chrome.driver", "<PATH_TO_CHROMEDRIVER.EXE>\\chromedriver.exe");
+            driver = new ChromeDriver();
+            driver.get("https://translate.google.com");
+        }
+    }
+    
+### C. Change the <PATH_TO_CHROMEDRIVER.EXE> to the real path your chromedriver.exe file is in (without deleting chromedriver.exe).
+
+

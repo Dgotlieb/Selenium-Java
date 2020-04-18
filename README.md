@@ -26,7 +26,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 ### A. Create a new Java class name it: WebTest
 ### B. Copy the below code into tour class:
 
-import org.openqa.selenium.chrome.ChromeDriver;
+    import org.openqa.selenium.chrome.ChromeDriver;
 
     public class WebTest {
         private static ChromeDriver driver;

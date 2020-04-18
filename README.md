@@ -20,6 +20,7 @@ https://sites.google.com/a/chromium.org/chromedriver/downloads
 ### C. Copy maven dependency
 ### D. Paste it inside your POM.xml in between <dependencies></dependencies>
 
+----------------------------------------------------------------------------
 
 ## 3. Add WebDriver code:
 ### A. Create a new Java class name it: WebTest

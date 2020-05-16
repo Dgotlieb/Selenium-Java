@@ -44,6 +44,16 @@ public class SimpleLocatorsTest {
         System.out.println("Total elements with tag name " +
                 locatorValue + " :" + driver.findElements(By.tagName(locatorValue)).size());
     }
+    
+    @Test
+    public void test06_iterateElementsList(){
+        List<WebElement> elementList = driver.findElements(By.tagName("input"));
+        for (int i = 0; i < elementList.size(); i++) {
+            if (elementList.get(i).getAttribute("autocomplete").equals("off")){
+                elementList.get(i).sendKeys("shoes");
+            }
+        }
+    }
 
     @AfterClass
     public static void tearDown(){
